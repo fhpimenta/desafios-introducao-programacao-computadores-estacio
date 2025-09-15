@@ -30,7 +30,7 @@ int main() {
 
     printf("Insira os dados da Carta 1\n");
 
-    printf("Estado: ");
+    printf("Estado (A-H): ");
     scanf("%c", &carta01Estado);
     // limparBuffer();
 
@@ -46,10 +46,10 @@ int main() {
     printf("Populacao: ");
     scanf(" %d", &carta01Populacao);
 
-    printf("Area: ");
+    printf("Área (em km²): ");
     scanf("%f", &carta01Area);
 
-    printf("PIB: ");
+    printf("PIB (em bilhões de reais): ");
     scanf(" %f", &carta01PIB);
 
     printf("Quantidade de Pontos Turisticos: ");
@@ -66,7 +66,7 @@ int main() {
     scanf("%s", carta02Codigo);
     limparBuffer();
 
-    printf("Cidade: ");    
+    printf("Cidade (A-H): ");
     fgets(carta02Cidade, sizeof(carta02Cidade), stdin);
     // Remove o caractere de nova linha do final da string, se existir
     carta02Cidade[strcspn(carta02Cidade, "\n")] = '\0';
@@ -74,10 +74,10 @@ int main() {
     printf("Populacao: ");
     scanf(" %d", &carta02Populacao);
 
-    printf("Area: ");
+    printf("Área (em km²): ");
     scanf("%f", &carta02Area);
 
-    printf("PIB: ");
+    printf("PIB (em bilhões de reais): ");
     scanf("%f", &carta02PIB);
 
     printf("Quantidade de Pontos Turisticos: ");
