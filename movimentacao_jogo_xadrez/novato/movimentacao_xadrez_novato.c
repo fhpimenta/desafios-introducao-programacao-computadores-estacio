@@ -1,11 +1,3 @@
-/*
- * Programa: Movimentação de Peças de Xadrez - Nível Novato
- * Descrição: Simula o movimento de três peças de xadrez (Torre, Bispo e Rainha)
- *            utilizando diferentes estruturas de repetição em C.
- * Autor: Sistema de Exercícios
- * Data: 2024
- */
-
 #include <stdio.h>
 
 int main() {
